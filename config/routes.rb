@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   
   get 'contact' => 'static_pages#contact'
   
-  get 'signup'  => 'user#new'
+  get 'signup'  => 'users#new'
   
  end
 
